@@ -1,0 +1,103 @@
+body {
+    background-image: url("./images/topography.svg"),
+      linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    background-attachment: fixed;
+  }
+
+  html {
+    font-family: Arial, sans-serif, "Apple Color Emoji",
+     "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+   
+  }
+.yemekler{
+    display: grid;
+    grid-template-areas:"taco taco taco taco taco"
+    "tacos tacos  tacos   kom  kom " ;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 20px;
+}
+.taco{
+    color: yellow;
+    background-image: url(gg.jpg);
+    padding: 20px;
+    margin: 20px;
+    grid-area: taco;
+}
+.ft
+{
+    font-size: 50px;
+    font-weight: 300;
+}
+.tw{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 5px;
+}
+.tacos{
+    grid-area: tacos;
+    background-color: yellow;
+}
+.kom{
+    grid-area: kom;
+    background-color:yellow;
+}
+li{
+    list-style: none; 
+}
+a{
+    background:yellow;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.lin{
+    display: grid;
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.karsk{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.ber{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+.attached{
+    font-size: 50px;
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+}
+.feat{
+    background-color: white;
+    padding: 50px;
+    display:grid;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+    margin:5px 0 5px 0;
+}
+.feat {
+    grid-template-columns: 1fr 1fr;
+  }
+.pictures img{
+  width: 100%;
+}
+.pictures{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
